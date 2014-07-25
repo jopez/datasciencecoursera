@@ -1,7 +1,6 @@
-Data Science, Coursera: run_analysis.R, Version 1.0
+Data Science, Coursera: run_analysis.R, V 1.0
 ===================
 ## From the Course: Getting and Cleaning Data
-===================
 
 # The Data 
 
@@ -13,7 +12,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 For each record it was provided:
-===================
+====
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -33,7 +32,7 @@ The "run_analysis.R" script performs a sequence of steps following the requireme
 in Coursera. More information aobut the course can be found at: https://www.coursera.org/course/getdata
 
 With the original set of measurements provided in the ZIP file referred before, the script performs the following steps:
-===================
+====
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -44,7 +43,7 @@ With the original set of measurements provided in the ZIP file referred before, 
 # The Requirements
 
 The script was created and successfully executed in the following environment:
-===================
+====
 
 - Windows 7, 64 bits
 - R 3.1.0, 64 bits
@@ -53,14 +52,14 @@ The script was created and successfully executed in the following environment:
 # Running the Script
 
 There are at least two ways of running the script:
-===================
+===
 
 1. Open it with your favorite text editor, and copy the text into an R shell.
 
 2. Open a command prompt, move to the directory where the script is located, an execute the command "Rscript run_analysis.R"
 
 Regarding the concrete operations performed by the script:
-===================
+===
 
 - It checks for the installed R.utils package
 - It creates a "data" directory, in the case there is none
