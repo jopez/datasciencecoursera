@@ -1,8 +1,8 @@
 Data Science, Coursera: run_analysis.R, V 1.0
 ===================
-## From the Course: Getting and Cleaning Data
+##  From the Course: Getting and Cleaning Data
 
-# The Data 
+###  The Data 
 
 The data used in this project was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -11,8 +11,8 @@ The experiments were carried out with a group of 30 volunteers within an age bra
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone. 
 The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-For each record it was provided:
-====
+##### For each record it was provided:
+
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -26,13 +26,12 @@ where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activi
 
 More information about the data can also be found in the file "Codebook.md".
 
-# The Script
+### The Script
 
 The "run_analysis.R" script performs a sequence of steps following the requirements of the final project of the course Getting and Cleaning Data offered
 in Coursera. More information aobut the course can be found at: https://www.coursera.org/course/getdata
 
-With the original set of measurements provided in the ZIP file referred before, the script performs the following steps:
-====
+##### With the original set of measurements provided in the ZIP file referred before, the script performs the following steps:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -40,26 +39,23 @@ With the original set of measurements provided in the ZIP file referred before, 
 4. Appropriately labels the data set with descriptive variable names in order to ease its lecture, and using the information provided by the collectors of the data.
 5. Creates a final tidy data set with the average of each variable for each activity and each subject.
 
-# The Requirements
+### The Requirements
 
-The script was created and successfully executed in the following environment:
-====
+##### The script was created and successfully executed in the following environment:
 
 - Windows 7, 64 bits
 - R 3.1.0, 64 bits
 - The "R.utils" package
 
-# Running the Script
+### Running the Script
 
-There are at least two ways of running the script:
-===
+##### There are at least two ways of running the script:
 
 1. Open it with your favorite text editor, and copy the text into an R shell.
 
 2. Open a command prompt, move to the directory where the script is located, an execute the command "Rscript run_analysis.R"
 
-Regarding the concrete operations performed by the script:
-===
+##### Regarding the concrete operations performed by the script:
 
 - It checks for the installed R.utils package
 - It creates a "data" directory, in the case there is none
