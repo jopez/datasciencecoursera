@@ -113,3 +113,5 @@ finally, each of those estimations where averaged for each activity and each sub
 66. FrequencyOfBodyFromGyroscopeMagnitudeSTD
 67. FrequencyOfBodyFromGyroscopeJerkMagnitudeMean
 68. FrequencyOfBodyFromGyroscopeJerkMagnitudeSTD 
+
+#### Note
