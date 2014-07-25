@@ -115,3 +115,6 @@ finally, each of those estimations where averaged for each activity and each sub
 68. FrequencyOfBodyFromGyroscopeJerkMagnitudeSTD 
 
 #### Note
+
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row on the "tidy.[csv|txt]" file.
